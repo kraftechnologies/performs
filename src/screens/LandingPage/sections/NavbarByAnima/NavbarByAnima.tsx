@@ -41,7 +41,6 @@ export const NavbarByAnima = (): JSX.Element => {
     { title: "Pricing", href: "/pricing" },
     { title: "Resources", href: "/resources" },
     { title: "About Us", href: "/about" },
-    { title: "Employee Management", href: "/employee-management" },
   ];
 
   const menuVariants = {
