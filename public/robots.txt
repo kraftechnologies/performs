@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://performx.kraftechnologies.com/sitemap.xml
