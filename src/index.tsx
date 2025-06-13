@@ -6,13 +6,19 @@ import { TestimoniesPage } from "./screens/TestimoniesPage/TestimoniesPage";
 import { ContactPage } from "./screens/ContactPage/ContactPage";
 import { BlogPage } from "./screens/BlogPage/BlogPage";
 import { AboutPage } from "./screens/AboutPage/AboutPage";
+import Collaboration from "./screens/CollaborationPage/Collaboration";
+import Employee from "./screens/EmployeePage/Employee";
+import Cloud from "./screens/CloudstoragePage/Cloud";
 
 const router = createBrowserRouter([
   { path: "/", element: <LandingPage /> },
   { path: "/testimonies", element: <TestimoniesPage /> },
   { path: "/contact", element: <ContactPage /> },
   { path: "/blog", element: <BlogPage /> },
-  { path: "/about", element: <AboutPage /> }
+  { path: "/about", element: <AboutPage /> },
+  { path: "/collaboration", element: <Collaboration /> },
+  { path: "/employee-management", element: <Employee /> },
+  { path: "/cloud", element: <Cloud /> },
 ]);
 
 createRoot(document.getElementById("app") as HTMLElement).render(

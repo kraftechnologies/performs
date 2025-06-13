@@ -1,7 +1,8 @@
 import React from "react";
 import { ChoosePlanThatsByAnima } from "./sections/ChoosePlanThatsByAnima";
 import { CompanyByAnima } from "./sections/CompanyByAnima/CompanyByAnima";
-import { FooterByAnima } from "./sections/FooterByAnima/FooterByAnima";
+import { RecurringFooter } from "./sections/FooterByAnima/RecurringFooter";
+import { ConsultationSection } from "./sections/FooterByAnima/ConsultationSection";
 import { HowWeSupportOurByAnima } from "./sections/HowWeSupportOurByAnima";
 import { NavbarByAnima } from "./sections/NavbarByAnima";
 import { OurFeaturesYouCabByAnima } from "./sections/OurFeaturesYouCabByAnima";
@@ -51,7 +52,8 @@ export const LandingPage = (): JSX.Element => {
               <HowWeSupportOurByAnima />
               <ChoosePlanThatsByAnima />
               {/* <CompanyByAnima /> */}
-              <FooterByAnima />
+              <ConsultationSection />
+              <RecurringFooter />
             </div>
           </div>
         </div>
